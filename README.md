@@ -105,56 +105,19 @@ new risk assessment created after implementation
 
 ### Continuous Integration
 
+
 ### Unit & Integration Testing
 
+Pytest
 
-#### Jenkins Script
-The build script can be broken into five stages, shown below.  
-<br/>
+Pytest runs unit tests on the app. These are designed to assert that if a certain function is run, the output should be an expected value. 
+![testing1](https://user-images.githubusercontent.com/48153566/118325053-c97a6f00-b4fa-11eb-8d2c-319e9daf7558.png)
 
-**1.** Installation of the virtual environment
+Pytest Coverage
 
-```
-sudo apt install chromium-chromedriver -y
-sudo apt-get install python3-venv
+Pytest also provides a coverage functionality which shows how much of the applications code has been tested successfully
+![testing2](https://user-images.githubusercontent.com/48153566/118325060-cbdcc900-b4fa-11eb-8aca-1787bf2a36de.png)
 
-python3 -m venv venv
-source venv/bin/activate
-
-pip3 install -r requirements.txt
-```
-<br/>
-
-**2.** Stopping existing processes that may interfere
-
-```
-sudo systemctl stop recipe-project
-sudo rm pytest-result
-```
-
-**3.** Unit and integration testing
-
-```
-python3 -m pytest tests --cov=application --cov-report term-missing --disable-warnings
-```
-<br/>
-
-**4.** Running as-live environment on systemd process
-```
-sudo cp -r . /opt/project
-
-sudo systemctl daemon-reload
-sudo systemctl start recipe-project
-```
-
-**5.** Checking for reported failures from earlier testing - marks the build as failed if appropriate
-```
-if [ -f pytest-result ] && [ $(cat pytest-result) == 'FAIL' ]; 
-	then echo "TESTING FAILED - MARKING BUILD AS FAILED"; exit 1;
-fi;
-```
-
-As outlined in the pipeline diagram, the testing coverage report is then available on the Jenkins console.
 
 ### Front-End
 #### Home Page
