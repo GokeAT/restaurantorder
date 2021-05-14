@@ -8,12 +8,8 @@
 * [Trello Board](#trello-board)
 * [Entity Relationship Diagram](#entity-relationship-diagram)
 * [Risk Assessment](#risk-assessment)
-* [Test Analysis](#analysis-of-testing)
 * [Continuous Integration](#continuous-integration)
-* [Development](#development)
-  * [Unit Testing](#unit-testing)
-  * [Front-End Design](#front-end)
-  * [Integration Testing](#integration-testing)
+* [Test Analysis](#analysis-of-testing)
 * [Footer](#footer)
 
 
