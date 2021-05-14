@@ -100,12 +100,12 @@ new risk assessment created after implementation
 
 # Final Risk Assessment
 
-
-### Test Analysis
-
+![final risk assessment](https://user-images.githubusercontent.com/48153566/118323000-e5304600-b4f7-11eb-811c-d5dba32a06d5.png)
 
 
 ### Continuous Integration
+
+### Unit & Integration Testing
 
 
 #### Jenkins Script
@@ -156,26 +156,22 @@ fi;
 
 As outlined in the pipeline diagram, the testing coverage report is then available on the Jenkins console.
 
-## Development
-### Unit Testing
-
-
 ### Front-End
 #### Home Page
+Screenshot of the home page
 
+![website1](https://user-images.githubusercontent.com/48153566/118324621-2de8fe80-b4fa-11eb-980d-99c259c9beb3.png)
 
-#### Recipe Creation
+#### Restaurant Creation
+Screenshot of the create a restaurant page
 
+![website2](https://user-images.githubusercontent.com/48153566/118324628-2f1a2b80-b4fa-11eb-8d37-22031ca1cc66.png)
 
-#### Recipe Viewing
+#### Order Creation
+Screenshot of the create an order page
 
+![website3](https://user-images.githubusercontent.com/48153566/118324633-30e3ef00-b4fa-11eb-9945-60e033d19d4f.png)
 
-### Integration Testing
-
-
-## Footer
-### Future Improvements
-* 
 ### Author
 Goke Tegbe
 
