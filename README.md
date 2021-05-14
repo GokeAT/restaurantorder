@@ -92,6 +92,14 @@ be linked to one restaurant
 
 ### Risk Assessment
 
+A risk assessment register was made to show the risks associated with the project. Shown below was the original planned risk assessment aswell as the
+new risk assessment created after implementation
+
+# Original Risk Assessment
+![risk assessment 1](https://user-images.githubusercontent.com/48153566/118321087-07749480-b4f5-11eb-9fc6-49e53fd18b76.png)
+
+# Final Risk Assessment
+
 
 ### Test Analysis
 
