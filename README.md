@@ -61,6 +61,10 @@ These functionalities include:
 ### Trello Board
 I have utilised a trello board to showcase the progress of my project implementation over Jira as it is free to use
 
+# First Trello Board
+![Trello board 1](https://user-images.githubusercontent.com/48153566/118319076-2d4c6a00-b4f2-11eb-9741-ad327b91d687.png)
+
+# Final Trello Board
 ![finaltrello](https://user-images.githubusercontent.com/48153566/118318508-659f7880-b4f1-11eb-8d24-2821b2381e80.png)
 
 The full board can be found at https://trello.com/b/G39Z6rIk/restaurant
@@ -69,8 +73,19 @@ The full board can be found at https://trello.com/b/G39Z6rIk/restaurant
 
 ### Entity Relationship Diagram
 
+My original ERD is shown aswell as the final ERD after implementation of application.
+
+I have used a one to many relationship as one restaurant can have many orders but an order can only
+be linked to one restaurant
+
+# Original ER Diagram
+
+![erdiagram1](https://user-images.githubusercontent.com/48153566/118319199-5967eb00-b4f2-11eb-91e0-459544cf44c5.jpg)
+
+![erdiagram2 (2)](https://user-images.githubusercontent.com/48153566/118319206-5a991800-b4f2-11eb-90ef-cabe81fd40c7.png)
 
 
+# Final ER Diagram
 ![ER diagram 3](https://user-images.githubusercontent.com/48153566/118318743-b4e5a900-b4f1-11eb-9dbd-8b18c0b15956.png)
 
 ![erdiagram4](https://user-images.githubusercontent.com/48153566/118318793-c75fe280-b4f1-11eb-8e21-97f6cd7f0937.png)
