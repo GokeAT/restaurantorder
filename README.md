@@ -101,6 +101,10 @@ new risk assessment created after implementation
 
 ### Continuous Integration
 
+Pictured below is the continuous integration pipeline for my application. CI enables a quick, smoth & efficient process of development to deployment by speeding up the 
+integration process and allowing for easy to do testing
+
+![ci pipeline](https://user-images.githubusercontent.com/48153566/118331812-06e1fb00-b501-11eb-9a12-36d705097727.png)
 
 ### Unit & Integration Testing
 
