@@ -111,11 +111,13 @@ new risk assessment created after implementation
 Pytest
 
 Pytest runs unit tests on the app. These are designed to assert that if a certain function is run, the output should be an expected value. 
+
 ![testing1](https://user-images.githubusercontent.com/48153566/118325053-c97a6f00-b4fa-11eb-8d2c-319e9daf7558.png)
 
 Pytest Coverage
 
 Pytest also provides a coverage functionality which shows how much of the applications code has been tested successfully
+
 ![testing2](https://user-images.githubusercontent.com/48153566/118325060-cbdcc900-b4fa-11eb-8aca-1787bf2a36de.png)
 
 
