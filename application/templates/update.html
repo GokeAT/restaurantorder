@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% block body %}
+<br><br>
+Original Name: {{order.customername}}
+<br>
+Original Order: {{order.order}}
+<form action= '' method='POST'>
+    {{form.hidden_tag() }}
+    {{form.customername.label}} {{form.customername}}<br>
+    {{form.order.label}} {{form.order}}<br>
+    {{form.submit}}
+</form>
+
+
+{% endblock body %}

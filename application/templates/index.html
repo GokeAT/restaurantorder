@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<h2> Completed Orders</h2>
+    
+{%for restaurant in all_restaurants %}
+    {{ restaurant.restaurantname }}
+    <br>
+    {{ restaurant.location }}
+    <br>
+    {%for order in restaurant.orders%}
+    {{ order.customername }}
+    <br>
+    {{ order.order }}
+    <br>
+    {{ order.date_created }}
+    <br>
+    <form action= "{{ url_for('update', id=order.id) }}">
+        <input type=submit value="Update">
+    </form>
+    <form action= "{{ url_for('delete', id=order.id) }}">
+        <input type=submit value="Delete">
+    </form>
+    <br>
+    {% endfor %}
+{%endfor%}
+
+{% endblock body %}

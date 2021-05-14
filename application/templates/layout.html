@@ -1,0 +1,13 @@
+<html>
+  <head>
+      <title> Orders {{title}} </title>
+  </head>  
+  <body>
+      <h1> Orders - {{title}} </h1>
+      <a href="{{ url_for('home') }}"> Home </a>
+      <a href="{{ url_for('create') }}"> Create </a>
+      <a href="{{ url_for('createrestaurant') }}"> Create Restaurant </a>
+      {% block body %}
+      {% endblock body %}
+  </body>
+</html>
